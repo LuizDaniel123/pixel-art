@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header';
+import Pallet from './components/pallet';
 import Pixel from './components/pixel';
 
 function App() {
   return (
     <>
-      <Header />
+      <Pallet />
       <Pixel />
     </>
   );
