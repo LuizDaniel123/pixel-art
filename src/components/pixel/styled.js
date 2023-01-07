@@ -1,15 +1,17 @@
 import styled from 'styled-components'
 
-const Container = styled.div`
+const Container = styled.main`
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-gap: 1px;
-    height: 50vh;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-gap: 1px 1px;
     margin-top: 3rem;
-    width: 50vh;
 
     div {
        background-color: silver;
+       width: 5rem;
+       height: 5rem;
+       border-radius: 5px;
     }
 
 `;

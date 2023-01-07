@@ -1,16 +1,14 @@
 import React from 'react'
 import Container from './styled'
+import colors from '../../services/colors'
 
 export default function Header() {
 
   return (
     <Container>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+      {
+        colors.map((cor) => <div style={{backgroundColor: cor}}></div>)
+      }
     </Container>
   )
 }
